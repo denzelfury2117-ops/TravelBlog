@@ -1,0 +1,38 @@
+@import "hero.css";
+@import "sidebar.css";
+
+* { 
+    margin: 0; padding: 0; box-sizing: border-box; 
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --brown: #332115; 
+    --blue: #0053D4; 
+    --yellow: #E9F9B2; 
+    --gray: #756F6C; 
+    --white: #ffffff; 
+    --beige: #F9F1E2; 
+    --sky-blue: #C6DCFF; 
+    --green: #5F6D3B; 
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+}
+
+.main-content {
+    flex: 1;
+    overflow-y: auto;
+    background-color: var(--beige);
+}
