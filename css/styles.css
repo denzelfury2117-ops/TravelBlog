@@ -18,6 +18,11 @@ html {
     --beige: #F9F1E2; 
     --sky-blue: #C6DCFF; 
     --green: #5F6D3B; 
+
+    --font-plus: "Plus Jakarta Sans", sans-serif;
+    --font-gasoek: "Gasoek One", sans-serif;
+    --font-mono: "Xanh Mono", monospace;
+
 }
 
 body {
