@@ -1,0 +1,37 @@
+.latest-title {
+    text-align: center;
+    padding-top: 8rem;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: var(--font-plus);
+    color: var(--brown);
+}
+
+.latest-cards {
+    padding: 0 10rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.latest-cards .hero-banner {
+    flex: 1 1 calc(50% - 1rem);
+}
+
+.latest-article {
+    text-align: center;
+    padding: 4rem 2rem 8rem;
+}
+.latest-article a {
+    font-size: 1.6rem;
+    font-family: var(--font-plus);
+    color: var(--brown);
+
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    } 
+}
